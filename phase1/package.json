@@ -1,0 +1,21 @@
+{
+  "name": "crossmint-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create-polyante-cross.js",
+  "scripts": {
+    "create-polyanet-cross": "ts-node ./create-polyanet-cross.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
