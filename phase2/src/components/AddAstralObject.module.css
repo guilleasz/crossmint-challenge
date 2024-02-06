@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+button.addButton {
+  display: none;
+  padding: 0
+}
+
+.container:hover button.addButton,
+button.addButton.showingMenu {
+  display: inline;
+}
+
+.addIcon {
+  color: white
+}
